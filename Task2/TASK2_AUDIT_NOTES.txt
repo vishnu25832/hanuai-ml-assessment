@@ -1,0 +1,25 @@
+Task 2 audit and fixes
+
+Verified from accessible files:
+- Original dataset dimensions reported in notebook: 1,000 x 20.
+- Processed CSV: 1,000 rows x 27 columns.
+- Duplicate rows: 0; duplicate Event IDs: 0; Event ID unique count: 1,000.
+- Opened date range: 2019-08-27 through 2021-06-01.
+- Narrative missingness: CUSTOMER_VERBATIM=0, CAUSAL_VERBATIM=1, CORRECTION_VERBATIM=0.
+- Each of Trigger, Failure Component, Failure Condition, Additional Context, Fix Component, Fix Condition has 995 missing values.
+- issue_category counts: Audio / Sound 337; Other / Unspecified Infotainment 263; Connectivity / Communication 194; Display / Video 103; Controls / Display 60; Navigation / GPS 32; Abnormal Noise 11. Sum=1,000.
+- text_cluster counts: cluster 0=335, 1=264, 2=104, 3=47, 4=56, 5=194. Sum=1,000.
+- Notebook silhouette diagnostic: 0.011, indicating weak separation under this diagnostic.
+- Processed CSV dates: opened_date_iso min 2019-08-27 max 2021-06-01; no parse failures in exported normalized opened dates.
+
+Corrections made in reviewed copies:
+1. Notebook interpretation section now explicitly explains category-rule precedence and the 0.011 silhouette score.
+2. Report includes the weak silhouette score, category method clarification, accurate date range, and caveats on sparse annotation fields.
+
+Not independently verified because separate files were not accessible in the retrieved file set:
+- task2_cluster_summary.csv
+- issue_category_distribution.png
+- causal_code_distribution.png
+- events_by_month.png
+- cluster_sizes.png
+Please confirm these files exist in the folder you submit. The notebook contains embedded plots, but that does not guarantee separate PNG files are present.

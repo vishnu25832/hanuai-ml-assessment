@@ -1,0 +1,7 @@
+cluster,records,top_terms,example_event_ids
+0,332,"screen, module, replaced, power, ok, checked, ground, tested, verified, check","D-14801, D-14869, D-14666, D-14465, D-14782"
+1,263,"states, customer, customer states, states radio, replaced, xm, internal, replaced radio, replace, failure","D-14673, D-14827, D-15256, D-14812, D-14603"
+2,102,"camera, rear, coax, cable, code, camera inop, view, backup, video, backup camera","D-14704, D-14520, D-15406, D-14507, D-14590"
+3,47,"card, sd, sd card, error, navigation, error code, nav, message, usb, code","D-15149, D-14615, D-14693, D-14721, D-14646"
+4,61,"internal fault, fault, fault radio, internal, scan, replace radio, replace, scan codes, radio scan, codes","D-15186, D-15176, D-14796, D-14561, D-15237"
+5,195,"tac, case, tac case, phone, customer, replace, usb, advised, vehicle, replace radio","D-14555, D-15142, D-14857, D-14745, D-14850"
